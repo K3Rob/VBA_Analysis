@@ -6,7 +6,7 @@ VBA Challenge was a stock analysis to assist a financial advisor help his parent
 
 ## Results
 
-By refactoring this code we were able to take the generalized code that seached for specific things and give it perameters that allowed it to skip or ignore data we didn't need. This increased the speed of the run time for our code significantly. To do this we incorporated a variable to track which ticker we were on and then refrenced it with arrays to store the data we needed, linking it to the ticker it belonged to.
+By refactoring this code we were able to take the generalized code that seached for specific things and give it perameters that allowed it to skip or ignore data we didn't need. This increased the speed of the run time for our code significantly. To do this we incorporated a variable to track which ticker we were on and then refrenced it with arrays to store the data needed, linking it to the ticker it belonged to. The variable tickerIndex was used to track the ticker in the for loop which could have been done with a nested for loop but doing so would have taken longer. The times for the [original 2017 analysis](https://github.com/K3Rob/VBA_Challenge/blob/main/2017%20original%20analysis.PNG) and [oiginal 2018 analysis](https://github.com/K3Rob/VBA_Challenge/blob/main/2018%20original%20analysis.PNG) can be compared with the results of the end product for [2017](https://github.com/K3Rob/VBA_Challenge/blob/main/VBA%20Challenge%202017.PNG) and [2018](https://github.com/K3Rob/VBA_Challenge/blob/main/VBA%20Challenge%202018.PNG). 
 
 ## Summary
 
